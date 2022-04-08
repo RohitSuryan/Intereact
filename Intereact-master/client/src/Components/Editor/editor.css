@@ -1,0 +1,39 @@
+#editor-textarea { 
+    font-family: monospace; 
+    font-size: 16px;
+    height: 60vh;    
+    resize:none;
+    overflow-y: auto;
+    border: none;
+ 
+}
+
+#editor-textarea::focus{
+    border:none
+}
+
+.code-runner-cntr{
+    display: flex;
+    justify-content: flex-end;
+}
+.code-runner{
+    position: absolute;
+    margin: 5px;
+}
+
+.editor-lang-slct-cntr{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#editor-lang-slct{
+    position: absolute;
+    margin-top: 5px;
+    border-radius: 0.25em;
+}
+
+.output{
+    white-space: pre-line;
+    padding: 10px;
+    background-color: #ffffff;
+}
